@@ -1,0 +1,30 @@
+/* dashboard.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.list-group-item {
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}

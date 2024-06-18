@@ -1,0 +1,68 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    margin-bottom: 50px;
+}
+.hero-section {
+    padding: 20px;
+    margin: 20px 0;
+    
+}
+.hero-section h1 {
+    font-size: 2.5rem;
+}
+.btn-purple {
+    margin-top: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+}
+.benefits-section, .pricing-section, .feedback-section {
+    padding: 60px 0;
+}
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.benefit {
+    text-align: center;
+    padding: 10px;
+}
+.benefit-icon {
+    font-size: 2rem;
+    color: purple;
+}
+.benefit-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.feedback-slider {
+    margin-top: 20px;
+}
+.feedback-item {
+    text-align: center;
+}
+.feedback-stars {
+    color: gold;
+}
+.feedback-button {
+    margin-top: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    font-size: 1.2rem;
+}

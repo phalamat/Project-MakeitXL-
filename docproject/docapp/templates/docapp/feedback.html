@@ -1,0 +1,23 @@
+<!-- ========================= About the feedback page =====================
+Developer: Phala phalama676@gmail.com
+About: This form is form is used to capture comments and feedback regarding the application.
+The feedback will help us improve the application incrementally.
+========================= About the feedback page ========================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form action="{% url 'feedback' %}" method="post">
+        {% csrf_token %}
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Enter your email" required><br class="d-block">
+        <textarea name="comments" placeholder="Comment/Suggestion" required></textarea>
+        <button class="main-btn btn-hover" type="submit">Feedback</button>
+    </form>
+</body>
+</html>

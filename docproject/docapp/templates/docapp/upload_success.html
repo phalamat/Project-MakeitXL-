@@ -1,0 +1,29 @@
+<!-- ========================= About the upload success page =====================
+Developer: Phala phalama676@gmail.com
+About: This page will appear when the uploaded file is succesfully converted into excel format.
+The user can then download the document or go back and upload another financial document.
+========================= About the upload success page ========================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Successful</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <h1>Data Extracted Successfully</h1>
+                <p>Your file has been processed successfully. Download the results below:</p>
+                <a href="{{ excel_path }}" class="btn btn-success">Download Excel</a>
+                <a href="{% url 'upload_file' %}" class="btn btn-success">Extract Again</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
